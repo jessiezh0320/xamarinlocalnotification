@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/MyButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send a plain notification" />
+	    <Button
+        android:id="@+id/MyButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send a bigtext notification" />
+	    <Button
+        android:id="@+id/MyButton3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send a picture notification" />
+	    <Button
+        android:id="@+id/MyButton4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send a inbox notification" />
+		<Button
+        android:id="@+id/MyButton5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete channel1" />
+		<Button
+        android:id="@+id/MyButton6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete channel2" />
+	<Button
+        android:id="@+id/MyButton7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Download file notification" />
+</LinearLayout>
